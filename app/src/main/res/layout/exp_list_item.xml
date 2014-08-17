@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/rowPadTop"
+        android:paddingLeft="@dimen/rowPadLeft"
+        android:paddingBottom="@dimen/rowPadBottom">
+
+        <TextView
+            android:id="@+id/jobboard_field"
+            android:text="Found at: "
+            android:textSize="17sp"
+            android:paddingTop="@dimen/rowPadTop"
+            android:paddingLeft="@dimen/rowPadLeft"
+            android:paddingBottom="@dimen/rowPadBottom"
+            android:layout_gravity="end"/>
+
+        <TextView
+            android:id="@+id/jobboard_value"
+            android:text="Source Job Board"
+            android:textColor="@color/yaga_blue"
+            android:textSize="17sp"
+            android:ellipsize="end"
+            android:paddingTop="@dimen/rowPadTop"
+            android:paddingLeft="@dimen/rowPadLeft"
+            android:paddingBottom="@dimen/rowPadBottom"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/rowPadTop"
+        android:paddingLeft="@dimen/rowPadLeft"
+        android:paddingBottom="@dimen/rowPadBottom">
+
+        <TextView
+            android:id="@+id/dummy"
+            android:paddingTop="@dimen/rowPadTop"
+            android:paddingLeft="@dimen/rowPadLeft"
+            android:paddingBottom="@dimen/rowPadBottom"/>
+
+        <TextView
+            android:id="@+id/timestamp"
+            android:text="Timestamp"
+            android:textColor="@color/yaga_orange"
+            android:textSize="17sp"
+            android:ellipsize="end"
+            android:paddingTop="@dimen/rowPadTop"
+            android:paddingLeft="@dimen/rowPadLeft"
+            android:paddingBottom="@dimen/rowPadBottom"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/rowPadTop"
+        android:paddingLeft="@dimen/rowPadLeft"
+        android:paddingBottom="@dimen/rowPadBottom">
+
+        <TextView
+            android:id="@+id/salary_field"
+            android:text="Salary: "
+            android:textSize="17sp"
+            android:paddingTop="@dimen/rowPadTop"
+            android:paddingLeft="@dimen/rowPadLeft"
+            android:paddingBottom="@dimen/rowPadBottom"
+            android:layout_gravity="end"/>
+
+        <TextView
+            android:id="@+id/salary_value"
+            android:text="Salary Value"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:paddingTop="@dimen/rowPadTop"
+            android:paddingLeft="@dimen/rowPadLeft"
+            android:paddingBottom="@dimen/rowPadBottom"
+            android:layout_gravity="start"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/rowPadTop"
+        android:paddingLeft="@dimen/rowPadLeft"
+        android:paddingBottom="@dimen/rowPadBottom">
+
+        <TextView
+            android:id="@+id/location_field"
+            android:text="Located in: "
+            android:textSize="17sp"
+            android:paddingTop="@dimen/rowPadTop"
+            android:paddingLeft="@dimen/rowPadLeft"
+            android:paddingBottom="@dimen/rowPadBottom"
+            android:layout_gravity="end"/>
+
+        <TextView
+            android:id="@+id/location_value"
+            android:text="Location Value"
+            android:textColor="@color/yaga_orange"
+            android:textSize="17sp"
+            android:paddingTop="@dimen/rowPadTop"
+            android:paddingLeft="@dimen/rowPadLeft"
+            android:paddingBottom="@dimen/rowPadBottom"
+            android:layout_gravity="start"/>
+    </TableRow>
+
+</TableLayout>

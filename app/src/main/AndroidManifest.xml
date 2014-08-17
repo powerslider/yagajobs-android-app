@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ceco.android.yagajobs.app" >
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- enable the search dialog to send searches to JobSearchActivity -->
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".activity.JobSearchActivity"/>
+        <activity
+            android:name=".activity.WebNavigationActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".activity.JobSearchActivity"
+                  android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                       android:resource="@xml/search"/>
+        </activity>
+        <activity
+            android:name=".fragment.VacancyListPageFragment"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

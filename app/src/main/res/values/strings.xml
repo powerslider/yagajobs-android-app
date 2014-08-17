@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">yagajobs</string>
+    <string name="hello">Hello,</string>
+    <string name="welcome">Welcome</string>
+    <string name="haha">Ha,ha,ha,</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="remove">Remove</string>
+    <string name="scroll_me">Scroll me</string>
+    <string name="menuitem_refresh">Refresh</string>
+    <string name="settings">Settings</string>
+    <string name="stackoverflow_viewer">Stackoverflow Viewer</string>
+    <string name="list">List</string>
+    <string name="logout">Logout</string>
+    <string name="smile">Smile</string>
+    <string name="drawer_open">Select an option</string>
+    <string name="drawer_close">Drawer Closed</string>
+    <string name="action_bar_title">Action Bar</string>
+    <string name="playground">playground</string>
+    <string name="pricing">pricing</string>
+    <string name="use_cases">use cases</string>
+    <string name="documentation">documentation</string>
+</resources>
